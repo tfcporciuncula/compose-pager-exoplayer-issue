@@ -46,4 +46,5 @@ private fun StyledPlayerView.setup(player: Player?, resizeMode: Int) {
   setKeepContentOnPlayerReset(true)
   this.resizeMode = resizeMode
   this.player = player
+  clipToOutline = true
 }
